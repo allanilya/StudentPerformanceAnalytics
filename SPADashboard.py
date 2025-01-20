@@ -15,7 +15,7 @@ from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 
 #Import the relevant library and dataset.
-file_path = '/Users/Allan/Desktop/Data Visualization/Data Visualization Final Project/student-por.csv'  # Update this path if needed
+file_path = 'student-por.csv'  # Replace with your filepath
 data = pd.read_csv(file_path)
 
 data['studytime'] = pd.Categorical(
